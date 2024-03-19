@@ -1,0 +1,19 @@
+#include "Workout.h"
+#include "Exercise.h"
+#include <iostream>
+#inlcude <fstream>
+
+using namespace std;
+
+//Overloaded constructor
+Manager::Manager();
+
+//Destructor
+~Manager();
+
+void DisplayWorkouts();
+void ReadFile();
+void MainMenu();
+void FindWorkout();
+void ReverseWorkout();
+void InsertNewExercise();
